@@ -13,8 +13,6 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class store extends AppCompatActivity {
     float x1, x2;
-    public ImageView storeFront;
-    private AnimationDrawable frame;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,14 +25,8 @@ public class store extends AppCompatActivity {
             return insets;
         });
 
-        storeFront = findViewById(R.id.hat);
-        frame = (AnimationDrawable) storeFront.getDrawable();
-    }
+        ImageView hatBob = findViewById(R.id.hatBobble);
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        frame.start();
     }
 
     public boolean onTouchEvent(MotionEvent touch){
