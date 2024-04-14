@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
                 x2 = touch.getX();
                 if(x1 > x2){
                    /* Intent i = new Intent(MainActivity.this, idlePage.class);
-                    startActivity(i);
-                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);*/
+                    startActivity(i); */
                     finish();
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                 break;
         }
