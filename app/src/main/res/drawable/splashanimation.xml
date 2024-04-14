@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/wakingup1" android:duration="800" />
+    <item android:drawable="@drawable/wakingup2" android:duration="800" />
+    <item android:drawable="@drawable/wakingup3" android:duration="800" />
+    <item android:drawable="@drawable/wakingup4" android:duration="800" />
+    <item android:drawable="@drawable/wakingup5" android:duration="800" />
+    <item android:drawable="@drawable/wakingup6" android:duration="800" />
+</animation-list>
